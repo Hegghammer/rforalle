@@ -119,3 +119,17 @@ hent_fil <- function(file, type, full, destdir) {
   message(glue::glue("Laster ned '{file}' til {destdir} .."))
   utils::download.file(url, destfile = destpath)
 }
+
+#' View the source repository on Github
+#'
+#' @description Opens a browser at \url{https://github.com/Hegghammer/rbok/}.
+#'
+#' @export
+#' @examples
+#' \dontrun{
+#' se_github()
+#' }
+
+se_github <- function() {
+  utils::browseURL("https://github.com/Hegghammer/rbok/")
+}
