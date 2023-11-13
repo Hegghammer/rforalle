@@ -1,0 +1,19 @@
+Package: rforalle
+Title: Download Code and Data for R for Alle
+Version: 0.0.1
+Authors@R: 
+    person("Thomas", "Hegghammer", ,"thomas@hegghammer.net", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6253-1518"))
+Description: Simple package to make it easy for beginners to download example data and code used in the book R for alle (Oslo: Fagbokforlaget, 2024). The source material resides in another repository <https://github.com/Hegghammer/rbok> due to the size of some of the files.
+License: MIT + file LICENSE
+URL: https://github.com/Hegghammer/rforalle
+BugReports: https://github.com/Hegghammer/rforalle/issues
+Depends: 
+    R (>= 4.2.0)
+Imports: 
+  glue,
+  httr,
+  utils
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

@@ -1,0 +1,8 @@
+^\.git$
+^\.github$
+^\.gitignore$
+^\.Rproj\.user$
+^\.Rhistory$
+^rforalle\.Rproj$
+^rforalle\.code-workspace$
+^LICENSE\.md$
